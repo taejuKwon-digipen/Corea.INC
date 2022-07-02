@@ -1,0 +1,13 @@
+assets/FIeldPart/FieldWorker_spr.png
+FrameSize 237 225
+HotSpot 118 112
+
+Frame 0 0
+Frame 237 0
+Frame 474 0
+Frame 711 0
+Frame 948 0
+
+Anim assets/none.anm
+Anim assets/FIeldPart/FieldWorker.anm
+

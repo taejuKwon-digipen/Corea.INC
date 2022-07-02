@@ -1,0 +1,15 @@
+assets/FieldPart/Heroine/Fieldhero_walk.png
+FrameSize 133 214
+HotSpot 75 107
+
+Frame 0 0
+Frame 133 0
+Frame 266 0
+Frame 399 0
+Frame 532 0
+Frame 655 0
+
+Anim assets/none.anm
+Anim assets/FieldPart/Heroine/heroWalk.anm
+Anim assets/FieldPart/Heroine/heroineQuestion.anm
+Anim assets/FieldPart/Heroine/heroineBang.anm

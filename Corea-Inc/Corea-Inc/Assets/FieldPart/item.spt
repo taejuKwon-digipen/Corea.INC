@@ -1,0 +1,7 @@
+assets/FIeldPart/item.png
+FrameSize 100 100
+HotSpot 50 50
+
+Frame 0 0
+
+Anim assets/none.anm

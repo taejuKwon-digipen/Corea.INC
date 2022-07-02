@@ -1,0 +1,29 @@
+assets/stat/luckstat-650.png
+FrameSize 650 55
+HotSpot 325 55
+
+Frame 0 0
+Frame 650 0
+Frame 1300 0
+Frame 1950 0
+Frame 2600 0
+Frame 3250 0
+Frame 3900 0
+Frame 4550 0
+Frame 5200 0
+Frame 5850 0
+Frame 6500 0
+Frame 7150 0
+
+Anim assets/none.anm
+Anim assets/stat/0.anm
+Anim assets/stat/1.anm
+Anim assets/stat/2.anm
+Anim assets/stat/3.anm
+Anim assets/stat/4.anm
+Anim assets/stat/5.anm
+Anim assets/stat/6.anm
+Anim assets/stat/7.anm
+Anim assets/stat/8.anm
+Anim assets/stat/9.anm
+Anim assets/stat/10.anm

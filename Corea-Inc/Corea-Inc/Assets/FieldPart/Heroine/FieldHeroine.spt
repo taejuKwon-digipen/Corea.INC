@@ -1,0 +1,13 @@
+assets/FieldPart/Heroine/heroine_foranim.png
+FrameSize 100 150
+HotSpot 50 75
+
+Frame 0 0
+Frame 100 0
+Frame 200 0
+Frame 300 0
+
+Anim assets/none.anm
+Anim assets/FieldPart/Heroine/heroineDot.anm
+Anim assets/FieldPart/Heroine/heroineQuestion.anm
+Anim assets/FieldPart/Heroine/heroineBang.anm

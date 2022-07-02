@@ -1,0 +1,4 @@
+assets/Enemy.png
+HotSpot 45 50
+HotSpot 0 -51
+CollisionRect -45 51 45 -51

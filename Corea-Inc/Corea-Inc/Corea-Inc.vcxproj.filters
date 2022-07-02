@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{5197b50b-7e24-47cd-92f6-39ab32eab815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Window">
+      <UniqueIdentifier>{a9243add-4419-4690-8619-37410ad8adb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{ef2ae909-572a-415b-aabf-7ccdc5ab8012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Image">
+      <UniqueIdentifier>{948e758b-34f0-4eee-aae7-39dbf99936f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{2309aab4-af12-4aa7-a048-fe28d182a43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{94848dac-1c45-453e-a83e-e1bff78cc89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GLSL">
+      <UniqueIdentifier>{50ae0657-794b-45f6-9317-c6ba7a8f28e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{e719af5b-2045-430f-824d-3c42f0b54202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Debugging">
+      <UniqueIdentifier>{818dd0df-81c4-45af-a246-2e865b331d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d67819d9-fb54-4b66-ab9f-15e743376a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GAME-STATES">
+      <UniqueIdentifier>{691eb578-fedc-480e-aa5c-947dbd964e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SCREENS">
+      <UniqueIdentifier>{1a1b8ff9-1c71-460d-abf7-06e7fda4ed27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PART">
+      <UniqueIdentifier>{af0b5ca4-3b59-48cd-ba39-2d3a6e0c1aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PART\ITEM">
+      <UniqueIdentifier>{098481a1-ceb1-4bbe-bbdc-595ba13f8483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PART\HUMAN-RESOURCES">
+      <UniqueIdentifier>{e4670c25-a1ed-46f5-89a8-ec7cf82c9d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PART\FIELD">
+      <UniqueIdentifier>{899118fb-56f8-45fc-8c03-5df3e82b33a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PART\ENEMY">
+      <UniqueIdentifier>{68d3a50f-defc-4bc3-8d1c-4f9472589b56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\glslshader.cpp">
+      <Filter>Engine\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Logger.cpp">
+      <Filter>Engine\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectManager.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Image.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input_Coconut.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MatrixOperator.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SpriteFont.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Shape.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Engine\ImageManager.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Music.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Hero.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemyPart.cpp">
+      <Filter>Game\PART\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldAddNPC.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldButton.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldHero.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldPart.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldWorker.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Score.cpp">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Background.cpp">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Button.cpp">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GreatPeople.cpp">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HumanResources.cpp">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Silhouette.cpp">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Beaker.cpp">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ItemPart.cpp">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Potion.cpp">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StatsforItem.cpp">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HeadQuarters.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lose.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainGame.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainMenu.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Win.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\glslshader.h">
+      <Filter>Engine\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectManager.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ComponentManager.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Image.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Logger.h">
+      <Filter>Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MatrixOperator.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rect.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SpriteFont.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Shape.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ImageManager.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ScenePart.h">
+      <Filter>Engine\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TexelImage.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Music.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fonts.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectTypes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Hero.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnemyPart.h">
+      <Filter>Game\PART\ENEMY</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldAddNPC.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldButton.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldHero.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldHeroine_Anim.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldNpcAnim.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldPart.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldWorker_Anim.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldWorker.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Score.h">
+      <Filter>Game\PART\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Background.h">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Button.h">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GreatPeople.h">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HumanResources.h">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Life.h">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Silhouette.h">
+      <Filter>Game\PART\HUMAN-RESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Beaker.h">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ItemPart.h">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Potion.h">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StatsforItems.h">
+      <Filter>Game\PART\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HeadQuarters.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lose.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainGame.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainMenu.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screens.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Win.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

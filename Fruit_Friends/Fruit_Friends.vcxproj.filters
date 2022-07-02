@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{cdd42c81-8d69-47c8-abeb-7f00e980acd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{cb3307c4-d3b1-4814-a409-16e6a63d3f96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Header\Engine.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\GameState.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\GameStateManager.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\glslshader.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Image.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Input.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Logger.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Rect.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Scenepart.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Shape.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Sprite.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Component.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\ComponentManager.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\GameObject.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\GameObjectManager.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Window.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\ImageManager.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixOperator.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Animation.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\SpriteFont.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\TexelImage.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Header\Texture.h">
+      <Filter>Engine\헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Source\Engine.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\glslshader.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Image.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Input.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Input_Coconut.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Logger.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Shape.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Sprite.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\GameStateManager.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\GameObjectManager.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\GameObject.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Window.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Engine\Source\Animation.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\SpriteFont.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\ImageManager.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\MatrixOperator.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\TexelImage.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Texture.cpp">
+      <Filter>Engine\소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+language,filename,blank,comment,code,"http://cloc.sourceforge.net v 1.64  T=0.22 s (239.2 files/s, 14056.8 lines/s)"
+C++,Game\ItemPart.cpp,86,50,291
+C++,Game\Silhouette.cpp,29,1,267
+C++,Game\FieldHero.cpp,17,1,115
+C++,Game\HumanResources.cpp,16,1,112
+C/C++ Header,Game\FieldHero.h,12,1,82
+C++,Game\UI.cpp,16,24,76
+C++,Game\Potion.cpp,17,48,73
+C/C++ Header,Game\ItemPart.h,18,39,65
+C++,Game\FieldWorker.cpp,12,0,65
+C++,Game\MainGame.cpp,10,1,64
+C++,Game\FieldPart.cpp,21,15,62
+C/C++ Header,Game\Silhouette.h,6,1,60
+C++,Game\StatsforItem.cpp,15,0,51
+C++,Game\HeadQuarters.cpp,7,3,50
+C++,Game\Hero.cpp,8,3,49
+C/C++ Header,Game\HumanResources.h,11,2,43
+C++,Game\Button.cpp,14,9,43
+C++,Game\EnemyPart.cpp,7,2,41
+C++,Game\GreatPeople.cpp,6,0,39
+C/C++ Header,Game\FieldWorker.h,6,1,38
+C++,Game\MainMenu.cpp,8,5,38
+C++,Game\Beaker.cpp,13,0,37
+C++,Game\Lose.cpp,6,1,36
+C++,Game\Win.cpp,6,1,36
+C/C++ Header,Game\Potion.h,6,1,29
+C/C++ Header,Game\Button.h,4,0,29
+C/C++ Header,Game\FieldPart.h,7,1,28
+C/C++ Header,Game\Beaker.h,3,0,26
+C/C++ Header,Game\GreatPeople.h,5,1,26
+C/C++ Header,Game\StatsforItems.h,2,0,26
+C++,Game\Splash.cpp,5,0,23
+C/C++ Header,Game\Hero.h,6,2,22
+C++,Game\Background.cpp,5,1,19
+C++,Game\Score.cpp,4,0,19
+C/C++ Header,Game\Lose.h,3,1,17
+C/C++ Header,Game\HeadQuarters.h,3,1,17
+C/C++ Header,Game\MainGame.h,5,1,17
+C/C++ Header,Game\EnemyPart.h,4,1,17
+C/C++ Header,Game\Win.h,2,1,16
+C/C++ Header,Game\Splash.h,4,0,16
+C/C++ Header,Game\Score.h,3,0,15
+C/C++ Header,Game\Background.h,3,1,15
+C/C++ Header,Game\Screens.h,1,4,12
+C/C++ Header,Game\MainMenu.h,3,0,12
+C++,Game\Music.cpp,3,16,10
+C/C++ Header,Game\GameObjectTypes.h,1,0,10
+C/C++ Header,Game\FieldHeroine_Anim.h,1,0,7
+C/C++ Header,Game\Music.h,1,0,7
+C/C++ Header,Game\FieldWorker_Anim.h,1,0,6
+C/C++ Header,Game\Fonts.h,1,0,5
+C/C++ Header,Game\UI.h,0,73,0
+C/C++ Header,Game\Life.h,0,10,0

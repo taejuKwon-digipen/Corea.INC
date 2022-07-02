@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input_Doodle.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Logger.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TransformMatrix.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SpriteFont.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HumanResources.cpp">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GreatPeople.cpp">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Beaker.cpp">
+      <Filter>Game\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldPart.cpp">
+      <Filter>Game\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ItemPart.cpp">
+      <Filter>Game\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Silhouette.cpp">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Potion.cpp">
+      <Filter>Game\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemyPart.cpp">
+      <Filter>Game\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Button.cpp">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Background.cpp">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HeadQuarters.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lose.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainGame.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainMenu.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Win.cpp">
+      <Filter>Game\SCREENS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StatsforItem.cpp">
+      <Filter>Game\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Music.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Hero.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldWorker.cpp">
+      <Filter>Game\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldHero.cpp">
+      <Filter>Game\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Score.cpp">
+      <Filter>Game\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FieldButton.cpp">
+      <Filter>Game\FIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\statanmset.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\ComponentManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Logger.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TransformMatrix.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SpriteFont.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vec2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rect.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HumanResources.h">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GreatPeople.h">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldPart.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ItemPart.h">
+      <Filter>Game\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Silhouette.h">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnemyPart.h">
+      <Filter>Game\ENEMY</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Button.h">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Background.h">
+      <Filter>Game\GAME-STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HeadQuarters.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lose.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainGame.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainMenu.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screens.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Win.h">
+      <Filter>Game\SCREENS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Potion.h">
+      <Filter>Game\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StatsforItems.h">
+      <Filter>Game\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Music.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Hero.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectTypes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fonts.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Beaker.h">
+      <Filter>Game\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldWorker.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldWorker_Anim.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Life.h">
+      <Filter>Game\HUMANRESOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldHeroine_Anim.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldHero.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Score.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldButton.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FieldNpcAnim.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="FIeldItemAnim.h">
+      <Filter>Game\FIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\statanmset.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b8c74867-dcdc-4e24-ae26-b09ff9691a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d32dac5f-5205-4ed1-acc3-05d2ac1d7022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\HUMANRESOURCES">
+      <UniqueIdentifier>{3bef64a9-0856-4be5-868f-0c5ac0e9621c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ITEM">
+      <UniqueIdentifier>{69a30347-0ea0-45e6-b5b2-fffd0ec9a2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ENEMY">
+      <UniqueIdentifier>{aad8cc57-1041-4ebf-9662-06dd5d6b2b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\FIELD">
+      <UniqueIdentifier>{92f076e0-d81b-42d8-b0c3-37a135cce3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GAME-STATES">
+      <UniqueIdentifier>{41a1c19b-4c1c-4ab9-b652-f01e89e00253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SCREENS">
+      <UniqueIdentifier>{17206844-ee1d-43f9-b187-1611219b0a5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Vec2.inl">
+      <Filter>Engine</Filter>
+    </None>
+  </ItemGroup>
+</Project>

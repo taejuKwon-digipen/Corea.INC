@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7849be51-1330-4cb2-8c22-8964f9f81e51}</ProjectGuid>
+    <RootNamespace>CoreaInc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop-pages\engine.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop-pages\engine.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)library/include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)library\bin;$(SolutionDir)library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)library/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)library\bin;$(SolutionDir)library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animation.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
+    <ClCompile Include="Engine\GameObjectManager.cpp" />
+    <ClCompile Include="Engine\GameStateManager.cpp" />
+    <ClCompile Include="Engine\glslshader.cpp" />
+    <ClCompile Include="Engine\Image.cpp" />
+    <ClCompile Include="Engine\ImageManager.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\Input_Coconut.cpp" />
+    <ClCompile Include="Engine\Logger.cpp" />
+    <ClCompile Include="Engine\MatrixOperator.cpp" />
+    <ClCompile Include="Engine\Shape.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\SpriteFont.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Engine\TextureManager.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Game\Background.cpp" />
+    <ClCompile Include="Game\Beaker.cpp" />
+    <ClCompile Include="Game\Button.cpp" />
+    <ClCompile Include="Game\EnemyPart.cpp" />
+    <ClCompile Include="Game\FieldAddNPC.cpp" />
+    <ClCompile Include="Game\FieldButton.cpp" />
+    <ClCompile Include="Game\FieldHero.cpp" />
+    <ClCompile Include="Game\FieldPart.cpp" />
+    <ClCompile Include="Game\FieldWorker.cpp" />
+    <ClCompile Include="Game\GreatPeople.cpp" />
+    <ClCompile Include="Game\HeadQuarters.cpp" />
+    <ClCompile Include="Game\Hero.cpp" />
+    <ClCompile Include="Game\HumanResources.cpp" />
+    <ClCompile Include="Game\ItemPart.cpp" />
+    <ClCompile Include="Game\Lose.cpp" />
+    <ClCompile Include="Game\MainGame.cpp" />
+    <ClCompile Include="Game\MainMenu.cpp" />
+    <ClCompile Include="Game\Music.cpp" />
+    <ClCompile Include="Game\Potion.cpp" />
+    <ClCompile Include="Game\Score.cpp" />
+    <ClCompile Include="Game\Silhouette.cpp" />
+    <ClCompile Include="Game\Splash.cpp" />
+    <ClCompile Include="Game\StatsforItem.cpp" />
+    <ClCompile Include="Game\UI.cpp" />
+    <ClCompile Include="Game\Win.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Animation.h" />
+    <ClInclude Include="Engine\Component.h" />
+    <ClInclude Include="Engine\ComponentManager.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\GameObject.h" />
+    <ClInclude Include="Engine\GameObjectManager.h" />
+    <ClInclude Include="Engine\GameState.h" />
+    <ClInclude Include="Engine\GameStateManager.h" />
+    <ClInclude Include="Engine\glslshader.h" />
+    <ClInclude Include="Engine\Image.h" />
+    <ClInclude Include="Engine\ImageManager.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Logger.h" />
+    <ClInclude Include="Engine\MatrixOperator.h" />
+    <ClInclude Include="Engine\Rect.h" />
+    <ClInclude Include="Engine\ScenePart.h" />
+    <ClInclude Include="Engine\Shape.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\SpriteFont.h" />
+    <ClInclude Include="Engine\TexelImage.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Engine\TextureManager.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Game\Background.h" />
+    <ClInclude Include="Game\Beaker.h" />
+    <ClInclude Include="Game\Button.h" />
+    <ClInclude Include="Game\EnemyPart.h" />
+    <ClInclude Include="Game\FieldAddNPC.h" />
+    <ClInclude Include="Game\FieldButton.h" />
+    <ClInclude Include="Game\FieldHero.h" />
+    <ClInclude Include="Game\FieldHeroine_Anim.h" />
+    <ClInclude Include="Game\FieldNpcAnim.h" />
+    <ClInclude Include="Game\FieldPart.h" />
+    <ClInclude Include="Game\FieldWorker.h" />
+    <ClInclude Include="Game\FieldWorker_Anim.h" />
+    <ClInclude Include="Game\Fonts.h" />
+    <ClInclude Include="Game\GameObjectTypes.h" />
+    <ClInclude Include="Game\GreatPeople.h" />
+    <ClInclude Include="Game\HeadQuarters.h" />
+    <ClInclude Include="Game\Hero.h" />
+    <ClInclude Include="Game\HumanResources.h" />
+    <ClInclude Include="Game\ItemPart.h" />
+    <ClInclude Include="Game\Life.h" />
+    <ClInclude Include="Game\Lose.h" />
+    <ClInclude Include="Game\MainGame.h" />
+    <ClInclude Include="Game\MainMenu.h" />
+    <ClInclude Include="Game\Music.h" />
+    <ClInclude Include="Game\Potion.h" />
+    <ClInclude Include="Game\Score.h" />
+    <ClInclude Include="Game\Screens.h" />
+    <ClInclude Include="Game\Silhouette.h" />
+    <ClInclude Include="Game\Splash.h" />
+    <ClInclude Include="Game\StatsforItems.h" />
+    <ClInclude Include="Game\UI.h" />
+    <ClInclude Include="Game\Win.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

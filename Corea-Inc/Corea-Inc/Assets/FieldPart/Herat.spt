@@ -1,0 +1,12 @@
+assets/FieldPart/Heart/Heart.png
+FrameSize 90 30
+HotSpot 15 15
+
+Frame 0 0
+Frame 30 0
+Frame 60 0
+
+Anim assets/none.anm
+Anim assets/FieldPart/Heart/3Heart.anm
+Anim assets/FieldPart/Heart/2Heart.anm
+Anim assets/FieldPart/Heart/1Heart.anm
